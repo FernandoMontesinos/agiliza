@@ -1,0 +1,144 @@
+/* Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  /* Container and Navbar Styling */
+  .container {
+    width: 90%;
+    max-width: 480px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b82f6;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #3b82f6;
+  }
+  
+  /* Responsive Input and Card Styling */
+  .search-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+  }
+  
+  .card {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .card-title {
+    color: #1f2937;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .card-details {
+    color: #4b5563;
+    font-size: 0.9rem;
+  }
+  
+  /* Tabs and Tab Content */
+  .tab-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    color: #3b82f6;
+    cursor: pointer;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  
+  .tab-content {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .button:hover {
+    background-color: #2563eb;
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.25rem;
+    }
+    
+    .icon {
+      font-size: 1.25rem;
+    }
+  }
+  
